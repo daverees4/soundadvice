@@ -597,8 +597,7 @@
  
   <script type="text/javascript">
     // This identifies your website in the createToken call below
-    require_once('./lib/Secrets.php');
-    Stripe.setPublishableKey($publishablekey);
+    Stripe.setPublishableKey('pk_0UX1ZN0mYrHD4A4ir530xL3LEryjh');
 
 $(function() {
   $('form.require-validation').bind('submit', function(e) {
