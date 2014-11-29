@@ -105,24 +105,22 @@
                         
                         <!-- NAVIGATION LINK -->
                         <ul class="nav navbar-nav navbar-left main-navigation small-text">
-                            <li><a href="#section2">Why Us?</a>
+                            <li><a href="#about">How it works</a>
                             </li>
-                            <li><a href="#section5">Benefits</a>
+                            <li><a href="#pricing">Pricing</a>
                             </li>
-                            <li><a href="#section6">Pricing</a>
+                            <li><a href="#team">Team</a>
                             </li>
-                            <li><a href="#section7">Explore</a>
-                            </li>
-                            <li><a href="#section10">Testimonials</a>
+                        
                             </li>
                             <!-- <li><a href="http://example.com" class="external">External Link Example</a></li> -->
                         </ul>
                         
                         <!-- LOGIN REGISTER -->
                         <ul class="nav navbar-nav navbar-right login-register small-text">
-                            <li class="login js-login"><a href="#">Login</a>
+                         
                             </li>
-                            <li class="register-button js-register inpage-scroll"><a href="#section11" class="navbar-register-button">Get Started</a>
+                            <li class="register-button js-register inpage-scroll"><a href="#signup" class="navbar-register-button">Get Started</a>
                             </li>
                         </ul>
                     </div>
@@ -156,8 +154,8 @@
                             
                             <!-- BUTTON -->
                             <div class="button">
-                                <a href="#section1" class="btn btn-primary standard-button inpage-scroll">Get Started Now!</a>
-                                <a href="#section1" class="btn btn-primary standard-button inpage-scroll visible-desktop">How Does It Work?</a>
+                                <a href="#signup" class="btn btn-primary standard-button inpage-scroll">Get Started Now!</a>
+                                <a href="#about" class="btn btn-primary standard-button inpage-scroll visible-desktop">How Does It Work?</a>
                             </div>
                           
                             <!-- /END BUTTON -->
@@ -200,7 +198,7 @@
     <!-- =========================
      SECTION: SERVICES
     ============================== -->
-    <section class="services grey-bg" id="section1">
+    <section class="services grey-bg" id="about">
         <div class="container">
             
             <!-- SECTION HEADER -->
@@ -213,7 +211,7 @@
                 <div class="colored-line">
                 </div>
                 <div class="sub-heading">
-                    Find out if you're as good at music as you think without going on the X Factor!
+                    From beginners and students to seasoned professionals, everyone needs feedback from a fresh pair of ears from time to time!
                 </div>
             </div>
             
@@ -240,7 +238,7 @@
                         </div>
                         <h3 class="colored-text">Get Advice</h3>
                         <p>
-                            Receive feedback in a format of your choice from a 100-word summary to a one-to-one Skype session with a Mentor.  
+                            Receive feedback in the next seven days, from a 100-word summary to a one-on-one Skype session with a Mentor.  
                         </p>
                     </div>
                 </div>
@@ -267,7 +265,7 @@
     <!-- =========================
      SECTION: PRICING   
     ============================== -->
-    <section class="pricing grey-bg" id="section6">
+    <section class="pricing grey-bg" id="pricing">
         <div class="container">
             
             <!-- SECTION HEADER -->
@@ -378,7 +376,7 @@
      <!-- =========================
      SECTION: TEAM   
     ============================== -->
-    <section class="team grey-bg" id="section9">
+    <section class="team grey-bg" id="team">
         <div class="container">
             
             <!-- SECTION HEADER -->
@@ -480,18 +478,27 @@
     <!-- =========================
      SECTION: Purchase Form  
     ============================== -->
-    <section class="team grey-bg" id="section9">
+    <section class="team grey-bg" id="signup">
         <div class="container">
             
 <div class="container">
+	          <div class="section-header">
+                <div class="small-text-medium uppercase colored-text">
+	                Get Started
+                </div>
+                <h2 class="dark-text">Submit your music today!</h2>
+                <div class="colored-line">
+                </div>
+                <div class="sub-heading">
+                    100% secure payments via <a href="http://stripe.com">Stripe</a>
+                </div>
+            </div>
+            <div class="container">
     <div class='row'>
-	    <
-        <div class='col-md-4'>
-        <h4>This will be the payment form (needs completing!)</h4>
-        </div>
+        <div class='col-md-4'></div>
         <div class='col-md-4'>
           <script src='https://js.stripe.com/v2/' type='text/javascript'></script>
-          <form accept-charset="UTF-8" action="/" class="require-validation" data-cc-on-file="false" data-stripe-publishable-key="pk_bQQaTxnaZlzv4FnnuZ28LFHccVSaj" id="payment-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓" /><input name="_method" type="hidden" value="PUT" /><input name="authenticity_token" type="hidden" value="qLZ9cScer7ZxqulsUWazw4x3cSEzv899SP/7ThPCOV8=" /></div>
+          <form accept-charset="UTF-8" action="order.php" class="require-validation" data-cc-on-file="false" id="payment-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓" /><input name="_method" type="hidden" value="PUT" /><input name="authenticity_token" type="hidden" value="qLZ9cScer7ZxqulsUWazw4x3cSEzv899SP/7ThPCOV8=" /></div>
             <div class='form-row'>
               <div class='col-xs-12 form-group required'>
                 <label class='control-label'>Name on Card</label>
@@ -545,10 +552,11 @@
 </div>
             
         </div>
-    </section>
+ 
      
     <!-- FOOTER -->
     <footer class="footer grey-bg">
+	    <? print_r($_POST);?>
         ©2014 Stamp LLC. All Rights Reserved
         
         <!-- OPTIONAL FOOTER LINKS -->
@@ -581,7 +589,74 @@
     <!-- =========================
      SCRIPTS   
     ============================== -->
-    <script src="js/jquery.min.js"></script>
+
+     <script type="text/javascript" src="https://js.stripe.com/v2/"></script>
+ 
+  <!-- jQuery is used only for this example; it isn't required to use Stripe -->
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+ 
+  <script type="text/javascript">
+    // This identifies your website in the createToken call below
+    require_once('./lib/Secrets.php');
+    Stripe.setPublishableKey($publishablekey);
+
+$(function() {
+  $('form.require-validation').bind('submit', function(e) {
+    var $form         = $(e.target).closest('form'),
+        inputSelector = ['input[type=email]', 'input[type=password]',
+                         'input[type=text]', 'input[type=file]',
+                         'textarea'].join(', '),
+        $inputs       = $form.find('.required').find(inputSelector),
+        $errorMessage = $form.find('div.error'),
+        valid         = true;
+
+    $errorMessage.addClass('hide');
+    $('.has-error').removeClass('has-error');
+    $inputs.each(function(i, el) {
+      var $input = $(el);
+      if ($input.val() === '') {
+        $input.parent().addClass('has-error');
+        $errorMessage.removeClass('hide');
+        e.preventDefault(); // cancel on first error
+      }
+    });
+  });
+});
+
+$(function() {
+  var $form = $("#payment-form");
+
+  $form.on('submit', function(e) {
+    if (!$form.data('cc-on-file')) {
+      e.preventDefault();
+    
+      Stripe.createToken({
+        number: $('.card-number').val(),
+        cvc: $('.card-cvc').val(),
+        exp_month: $('.card-expiry-month').val(),
+        exp_year: $('.card-expiry-year').val()
+      }, stripeResponseHandler);
+    }
+  });
+
+  function stripeResponseHandler(status, response) {
+    if (response.error) {
+      $('.error')
+        .removeClass('hide')
+        .find('.alert')
+        .text(response.error.message);
+    } else {
+      // token contains id, last4, and card type
+      var token = response['id'];
+      // insert the token into the form so it gets submitted to the server
+      $form.find('input[type=text]').empty();
+      $form.append("<input type='hidden' name='reservation[stripe_token]' value='" + token + "'/>");
+      $form.get(0).submit();
+    }
+  }
+});
+  </script>
+
     <script>
         /* PRE LOADER */
         jQuery(window).load(function () {
