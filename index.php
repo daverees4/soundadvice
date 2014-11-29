@@ -238,7 +238,7 @@
                         </div>
                         <h3 class="colored-text">Get Advice</h3>
                         <p>
-                            Receive feedback in the next seven days, from a 100-word summary to a one-on-one Skype session with a Mentor.  
+                            Receive feedback in the next seven days, from a 100-word summary to a one-on-one Skype session.  
                         </p>
                     </div>
                 </div>
@@ -495,10 +495,38 @@
             </div>
             <div class="container">
     <div class='row'>
-        <div class='col-md-4'></div>
+	              <form accept-charset="UTF-8" action="order.php" class="require-validation" data-cc-on-file="false" id="payment-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓" />
         <div class='col-md-4'>
-          <script src='https://js.stripe.com/v2/' type='text/javascript'></script>
-          <form accept-charset="UTF-8" action="order.php" class="require-validation" data-cc-on-file="false" id="payment-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓" /><input name="_method" type="hidden" value="PUT" /><input name="authenticity_token" type="hidden" value="qLZ9cScer7ZxqulsUWazw4x3cSEzv899SP/7ThPCOV8=" /></div>
+	        <div class='form-row'>
+              <div class='col-xs-12 form-group  required'>
+                <label class='control-label'>Your Name</label>
+                <input autocomplete='off' class='form-control' name="customername" size='20' type='text'>
+              </div>
+            </div>
+            <div class='form-row'>
+              <div class='col-xs-12 form-group  required'>
+                <label class='control-label'>Your Email</label>
+                <input autocomplete='off' class='form-control' name="customeremail" size='20' type='text'>
+              </div>
+            </div>
+            <div class='form-row'>
+              <div class='col-xs-12 form-group  required'>
+                <label class='control-label'>Service Required</label>
+              <select class="form-control products" name="servicerequired">
+  <option value="14.99">Overview (1 recording, 100 words of feedback)</option>
+  <option value="39.99">In Depth (3 recordings, 300 words of feedback)</option>
+  <option value="99.99">One-to-One (30 minute Skype session)</option>
+
+</select>
+              </div>
+            </div>
+       
+	        
+        </div>
+         <div class='col-md-4'></div>
+        <div class='col-md-4'>
+         
+<input name="_method" type="hidden" value="PUT" /><input name="authenticity_token" type="hidden" value="qLZ9cScer7ZxqulsUWazw4x3cSEzv899SP/7ThPCOV8=" />
             <div class='form-row'>
               <div class='col-xs-12 form-group required'>
                 <label class='control-label'>Name on Card</label>
@@ -529,7 +557,7 @@
               <div class='col-md-12'>
                 <div class='form-control total btn btn-info'>
                   Total:
-                  <span class='amount'>$300</span>
+                  <span class='amount'>$14.99</span>
                 </div>
               </div>
             </div>
@@ -547,7 +575,7 @@
             </div>
           </form>
         </div>
-        <div class='col-md-4'></div>
+       
     </div>
 </div>
             
@@ -556,10 +584,11 @@
      
     <!-- FOOTER -->
     <footer class="footer grey-bg">
-	    <? print_r($_POST);?>
-        ©2014 Stamp LLC. All Rights Reserved
+	  
+        ©<? echo date("Y");?> Sound Advice. All Rights Reserved
         
         <!-- OPTIONAL FOOTER LINKS -->
+        <!--
         <ul class="footer-links small-text">
             <li><a href="" class="dark-text">About</a>
             </li>
@@ -568,6 +597,7 @@
             <li><a href="" class="dark-text">Privacy</a>
             </li>
         </ul>
+        -->
         
         <!-- SOCIAL ICONS -->
         <ul class="social-icons">
@@ -624,6 +654,12 @@ $(function() {
 
 $(function() {
   var $form = $("#payment-form");
+  
+$('.products').on('change', function() {
+  $('.amount').text("$"+this.value);
+});
+	
+  
 
   $form.on('submit', function(e) {
     if (!$form.data('cc-on-file')) {
