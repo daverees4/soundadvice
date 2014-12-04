@@ -585,7 +585,7 @@
     <!-- FOOTER -->
     <footer class="footer grey-bg">
 	  
-        ©<? echo date("Y");?> Sound Advice. All Rights Reserved
+        ©<? echo date("Y");?> Digital Feedback. All Rights Reserved
         
         <!-- OPTIONAL FOOTER LINKS -->
         <!--
