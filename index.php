@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
     <!-- SITE TITLE -->
-    <title>Sound Advice | Professional honest feedback about your music.</title>
+    <title>Digital Feedback | Professional honest feedback about your music.</title>
     
     <!-- =========================
      FAV AND TOUCH ICONS AND FONT  
