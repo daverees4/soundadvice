@@ -436,7 +436,7 @@
                 <div class="col-md-3 col-sm-6">
                     <div class="team-member wow flipInY" data-wow-offset="10" data-wow-duration="1s">
                         <div class="member-pic">
-                            <img src="images/team/3.jpg" alt="">
+                            <img src="images/team/4.jpg" alt="">
                         </div>
                         <div class="member-details">
                             <h5 class="colored-text">David</h5>
