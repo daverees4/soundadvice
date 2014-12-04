@@ -225,7 +225,7 @@
                         </div>
                         <h3 class="colored-text">Upload Your Music</h3>
                         <p>
-                            Send us a recording of your singing, playing or composition.  We accept MP3 files or links to Youtube or Soundcloud. 
+                            Send us a recording of your singing, playing or composition.  We accept links to Youtube, Soundcloud, or MP3 files. 
                         </p>
                     </div>
                 </div>
