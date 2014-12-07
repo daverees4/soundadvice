@@ -261,6 +261,134 @@
     </section>
     
   
+     <!-- =========================
+     SECTION: BENEFITS   
+    ============================== -->
+    <section class="unique-features white-bg" id="section5">
+        <div class="container">
+            
+            <!-- SECTION HEADER -->
+            <div class="section-header">
+                <div class="small-text-medium uppercase colored-text">
+                    FEATURES
+                </div>
+                <h2 class="dark-text"><strong>Useful</strong> Benifits</h2>
+                <div class="colored-line">
+                </div>
+                <div class="sub-heading">
+                    Cloud computing subscription model out of the box proactive solution.
+                </div>
+            </div>
+            
+            <!-- FIRST ROW OF FEATURES -->
+            <div class="row">
+                <div class="col-md-4 wow fadeInRight" data-wow-duration="1.75s" data-wow-offset="20">
+                    
+                    <!-- SINGLE FEATURE -->
+                    <div class="feature">
+                        <div class="icon-container">
+                            <span class="icon-laptop colored-text"></span>
+                        </div>
+                        <div class="description text-left">
+                            <h4 class="dark-text">Reliable Company</h4>
+                            <div class="grey-line-short pull-left">
+                            </div>
+                            <p class="text-left">
+                                User engagement A/B testing shrink a market venture capital pitch deck.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <!-- SINGLE FEATURE -->
+                    <div class="feature">
+                        <div class="icon-container">
+                            <span class="icon-map-alt colored-text"></span>
+                        </div>
+                        <div class="description text-left">
+                            <h4 class="dark-text">Responsive Design</h4>
+                            <div class="grey-line-short pull-left">
+                            </div>
+                            <p class="text-left">
+                                User engagement A/B testing shrink a market venture capital pitch deck.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <!-- SINGLE FEATURE -->
+                    <div class="feature">
+                        <div class="icon-container">
+                            <span class="icon-cloud-alt colored-text"></span>
+                        </div>
+                        <div class="description text-left">
+                            <h4 class="dark-text">Cloud Platform</h4>
+                            <div class="grey-line-short pull-left">
+                            </div>
+                            <p class="text-left">
+                                User engagement A/B testing shrink a market venture capital pitch deck.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- IPAD IMAGE -->
+                <div class="col-md-4">
+                    <div class="ipad-image wow bounceIn" data-wow-duration="1.75s" data-wow-offset="20">
+                        <img src="images/ipad-air.png" alt="">
+                    </div>
+                </div>
+                
+                <div class="col-md-4 wow fadeInLeft" data-wow-duration="1.75s" data-wow-offset="20">
+                    
+                    <!-- SINGLE FEATURE -->
+                    <div class="feature">
+                        <div class="icon-container">
+                            <span class="icon-gift-alt colored-text"></span>
+                        </div>
+                        <div class="description text-left">
+                            <h4 class="dark-text">Bootstrap 3.3.1</h4>
+                            <div class="grey-line-short pull-left">
+                            </div>
+                            <p class="text-left">
+                                User engagement A/B testing shrink a market venture capital pitch deck.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <!-- SINGLE FEATURE -->
+                    <div class="feature">
+                        <div class="icon-container">
+                            <span class="icon-star-alt colored-text"></span>
+                        </div>
+                        <div class="description text-left">
+                            <h4 class="dark-text">400+ Icons Font</h4>
+                            <div class="grey-line-short pull-left">
+                            </div>
+                            <p class="text-left">
+                                User engagement A/B testing shrink a market venture capital pitch deck.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <!-- SINGLE FEATURE -->
+                    <div class="feature">
+                        <div class="icon-container">
+                            <span class="icon-chat-alt colored-text"></span>
+                        </div>
+                        <div class="description text-left">
+                            <h4 class="dark-text">Top Support</h4>
+                            <div class="grey-line-short pull-left">
+                            </div>
+                            <p class="text-left">
+                                User engagement A/B testing shrink a market venture capital pitch deck.
+                            </p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    
     
     <!-- =========================
      SECTION: PRICING   
@@ -374,103 +502,51 @@
  
     
      <!-- =========================
-     SECTION: TEAM   
+     SECTION: ABOUT THE TEAM
     ============================== -->
-    <section class="team grey-bg" id="team">
+    <section class="brief white-bg-border text-left" id="section2">
         <div class="container">
-            
-            <!-- SECTION HEADER -->
-            <div class="section-header">
-                <div class="small-text-medium uppercase colored-text">
-                    Team
+            <div class="row">
+                
+                <!-- BRIEF IMAGE -->
+                <div class="col-md-6 pull-right wow fadeInLeft" data-wow-offset="20" data-wow-duration="1.75s">
+                    <div class="brief-image-right">
+                        <img src="images/about-us.jpg" alt="">
+                    </div>
                 </div>
-                <h2 class="dark-text"><strong>Sound</strong> Advisors</h2>
-                <div class="colored-line">
+                
+                <!-- BRIEF HEADING -->
+                <div class="col-md-6 content-section pull-left wow fadeInRight" data-wow-offset="20" data-wow-duration="1.75s">
+                    <div class="small-text-medium uppercase colored-text">
+                        About
+                    </div>
+                    <h2 class="text-left dark-text">This replaces the team section </h2>
+                    <div class="colored-line-left">
+                    </div>
+                    <p class="text-left">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                    
+                    <!-- FEATURE LIST -->
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6">
+                            <ul class="feature-list text-left">
+                                <li><span class="icon-lock-alt colored-text"></span> We care your businnes</li>
+                                <li><span class="icon-check-alt2 colored-text"></span> Skilled professionals</li>
+                                <li><span class="icon-paperclip colored-text"></span> Lorem ipsum dolor</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+                            <ul class="feature-list text-left">
+                                <li><span class="icon-paperclip colored-text"></span> Startup ipsum does</li>
+                                <li><span class="icon-adjust-vert colored-text"></span> Flexible schedule</li>
+                                <li><span class="icon-ribbon-alt colored-text"></span> Certified company</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-                <div class="sub-heading">
-                    No matter what your musical goals, we can help. 
-                </div>
+                
             </div>
-            
-            <!-- MEMBERS -->
-            <div class="row wow fadeIn" data-wow-offset="10" data-wow-duration="1.75s">
-	            <div class="col-md-3 col-sm-6">
-                 &nbsp;
-                </div>
-                
-                <!-- MEMBER -->
-                <div class="col-md-3 col-sm-6">
-                    <div class="team-member wow flipInY" data-wow-offset="10" data-wow-duration="1s">
-                        <div class="member-pic">
-                            <img src="images/team/1.jpg" alt="">
-                        </div>
-                        <div class="member-details">
-                            <h5 class="colored-text">Jonathan</h5>
-                            <div class="small-text">
-                                Professional Singer and Former Record Executive (Decca, Universal)
-                            </div>
-                        </div>
-                        <ul class="social-icons">
-                            <li>
-                                <a href="">
-                                    <span class="icon-social-facebook dark-text"></span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <span class="icon-social-twitter dark-text"></span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <span class="icon-social-pinterest dark-text"></span>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                
-               
-                
-                <!-- MEMBER -->
-                <div class="col-md-3 col-sm-6">
-                    <div class="team-member wow flipInY" data-wow-offset="10" data-wow-duration="1s">
-                        <div class="member-pic">
-                            <img src="images/team/4.jpg" alt="">
-                        </div>
-                        <div class="member-details">
-                            <h5 class="colored-text">David</h5>
-                            <div class="small-text">
-                               Composer, Pianist and Lecturer (Royal College of Music, London)
-                            </div>
-                        </div>
-                        <ul class="social-icons">
-                            <li>
-                                <a href="">
-                                    <span class="icon-social-facebook dark-text"></span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <span class="icon-social-twitter dark-text"></span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <span class="icon-social-pinterest dark-text"></span>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                   <div class="col-md-3 col-sm-6">
-                 &nbsp;
-                </div>
-                
-               
-                </div>
-           
-            
         </div>
     </section>
     
