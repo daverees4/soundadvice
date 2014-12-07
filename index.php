@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
     <!-- SITE TITLE -->
-    <title>Digital Feedback | Professional honest feedback about your music.</title>
+    <title>Digital Feedback | Professional feedback about your music.</title>
     
     <!-- =========================
      FAV AND TOUCH ICONS AND FONT  
@@ -149,8 +149,8 @@
                         <div class="intro-section">
                             
                             <!-- WELCOM MESSAGE -->
-                            <h1 class="intro white-text">Honest feedback about your music</h1>
-                            <h5 class="white-text">Get constructive opinion and advice on your playing, singing or composing from leading music industry professionals</h5>
+                            <h1 class="intro white-text">Professional feedback about your music</h1>
+                            <h5 class="white-text">Get constructive opinion and advice on your singing, playing, or composing from leading music industry professionals</h5>
                             
                             <!-- BUTTON -->
                             <div class="button">
@@ -205,7 +205,7 @@
             <div class="section-header">
                 
                 <div class="small-text-medium uppercase colored-text">
-                    SERVICES
+                    WHAT WE OFFER
                 </div>
                 <h2 class="dark-text"><strong>Your Music</strong> to Expert Ears</h2>
                 <div class="colored-line">
