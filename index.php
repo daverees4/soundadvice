@@ -30,7 +30,7 @@
     <link rel="stylesheet" href="css/animate.min.css">
     
     <!-- FONT ICONS -->
-    <link rel="stylesheet" href="assets/icons/icons.css">
+    <link rel="stylesheet" href="icons.css">
     
     <!-- CAROUSEL AND LIGHTBOX -->
     <link rel="stylesheet" href="css/owl.theme.css">
