@@ -211,7 +211,9 @@
                 <div class="colored-line">
                 </div>
                 <div class="sub-heading">
-                    From beginners and students to seasoned professionals, everyone needs feedback from a fresh pair of ears from time to time!
+                    We believe in helping people achieve their dreams. <br>
+                    Whether you want to get on TV, or just improve your shower voice - we can help.<br>  
+                    Send us a clip today, and let us make the difference!
                 </div>
             </div>
             
@@ -270,13 +272,13 @@
             <!-- SECTION HEADER -->
             <div class="section-header">
                 <div class="small-text-medium uppercase colored-text">
-                    FEATURES
+                    BENEFITS
                 </div>
-                <h2 class="dark-text"><strong>Useful</strong> Benifits</h2>
+                <h2 class="dark-text"><strong>Why</strong> this?</h2>
                 <div class="colored-line">
                 </div>
                 <div class="sub-heading">
-                    Cloud computing subscription model out of the box proactive solution.
+                    What difference will this make?
                 </div>
             </div>
             
