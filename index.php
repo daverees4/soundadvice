@@ -263,7 +263,119 @@
     </section>
     
   
-     <!-- =========================
+   
+    
+    <!-- =========================
+     SECTION: PRICING   
+    ============================== -->
+    <section class="pricing grey-bg" id="pricing">
+        <div class="container">
+            
+            <!-- SECTION HEADER -->
+            <div class="section-header">
+                <div class="small-text-medium uppercase colored-text">
+                    Pricing
+                </div>
+                <h2 class="dark-text"><strong>Affordable</strong> Packages</h2>
+                <div class="colored-line">
+                </div>
+                <div class="sub-heading">
+                    From a brief summary to an in-depth conversation, get the feedback and advice you need. 
+                </div>
+            </div>
+            
+            <!-- PRICING TABLE -->
+            <div class="row pricing-table">
+                
+                <!-- SINGLE PACKAGE -->
+                <div class="col-md-4 wow fadeInLeft" data-wow-offset="20" data-wow-duration="1.75s">
+                    <div class="single-pricing border-bottom-hover">
+                        
+                        <div class="package-title">
+                            <h3 class="colored-text">Audition Package</h3>
+                            <div class="colored-line">
+                            </div>
+                        </div>
+                        
+                          <div class="button">
+                            <a href="#section11" class="btn standard-button inpage-scroll">Get Started</a>
+                        </div>
+                        
+                        <ul class="package-list">
+                            <li><span class="dark-text strong">100 words of feedback on one performance or composition</span></li>
+                            <li><span class="dark-text strong">Specific answers to questions or problems</span></li>
+                            <li><span class="dark-text strong">Advice to help you improve</span></li>
+                     
+                        </ul>
+                        
+                      
+                        
+                    <h2 class="price"><span class="superscript"></span>9.99</h2>
+                        
+                    </div>
+                </div>
+                
+                <!-- SINGLE PACKAGE -->
+                <div class="col-md-4 wow flipInY" data-wow-offset="10" data-wow-duration="1.5s">
+                    <div class="single-pricing border-bottom-hover">
+                        
+                        <div class="package-title ">
+                              <h3 class="colored-text">Bootcamp Package</h3>
+                            <div class="colored-line">
+                            </div>
+                        </div>
+                        
+                        <h2 class="price"><span class="superscript"></span>39.99</h2>
+                        
+                        <ul class="package-list">
+                          
+                            <li><span class="dark-text strong">Detailed feedback on three performances/compositions</li>
+                            <li><span class="dark-text strong">300 words of advice to help you improve</li>
+                            <li><span class="dark-text strong">An action plan designed to help you develop over the next two months</li>
+                          
+                        </ul>
+                        
+                        <div class="button">
+                            <a href="#section11" class="btn standard-button inpage-scroll">Get Started</a>
+                        </div>
+                        
+                      
+                        
+                    </div>
+                </div>
+                
+                <!-- SINGLE PACKAGE -->
+                <div class="col-md-4 wow fadeInRight" data-wow-offset="20" data-wow-duration="1.75s">
+                    <div class="single-pricing border-bottom-hover">
+                        
+                        <div class="package-title">
+                            <h3 class="colored-text">Finalist Package</h3>
+                            <div class="colored-line">
+                            </div>
+                        </div>
+                        <h2 class="price"><span class="superscript"></span>99.99</h2>
+                        
+                        <ul class="package-list">
+                            <li><span class="dark-text strong">An informal 30 minute one-to-one lesson with us over Skype/Google Hangouts</span></li>
+                            <li><span class="dark-text strong">Detailed and interactive</span></li>
+                            <li><span class="dark-text strong">Together we can work to achieve your musical targets, and give you specific, tailored guidence on how improve</span></li>
+                            <li><span class="dark-text strong">Advice on on your next musical steps, or how to get ahead in the industry</span></li>
+                     
+                        </ul>
+                        
+                        <div class="button">
+                            <a href="#section11" class="btn standard-button inpage-scroll">Get Started</a>
+                        </div>
+                        
+                  
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+      <!-- =========================
      SECTION: BENEFITS   
     ============================== -->
     <section class="unique-features white-bg" id="section5">
@@ -391,116 +503,6 @@
         </div>
     </section>
     
-    
-    <!-- =========================
-     SECTION: PRICING   
-    ============================== -->
-    <section class="pricing grey-bg" id="pricing">
-        <div class="container">
-            
-            <!-- SECTION HEADER -->
-            <div class="section-header">
-                <div class="small-text-medium uppercase colored-text">
-                    Pricing
-                </div>
-                <h2 class="dark-text"><strong>Affordable</strong> Packages</h2>
-                <div class="colored-line">
-                </div>
-                <div class="sub-heading">
-                    From a brief summary to an in-depth conversation, get the feedback and advice you need. 
-                </div>
-            </div>
-            
-            <!-- PRICING TABLE -->
-            <div class="row pricing-table">
-                
-                <!-- SINGLE PACKAGE -->
-                <div class="col-md-4 wow fadeInLeft" data-wow-offset="20" data-wow-duration="1.75s">
-                    <div class="single-pricing border-bottom-hover">
-                        
-                        <div class="package-title">
-                            <h3 class="colored-text">Audition Package</h3>
-                            <div class="colored-line">
-                            </div>
-                        </div>
-                        
-                          <div class="button">
-                            <a href="#section11" class="btn standard-button inpage-scroll">Get Started</a>
-                        </div>
-                        
-                        <ul class="package-list">
-                            <li><span class="dark-text strong">100 words of feedback on one performance or composition</span></li>
-                            <li><span class="dark-text strong">Specific answers to questions or problems</span></li>
-                            <li><span class="dark-text strong">Advice to help you improve</span></li>
-                     
-                        </ul>
-                        
-                      
-                        
-                    <h2 class="price"><span class="superscript"></span>9.99</h2>
-                        
-                    </div>
-                </div>
-                
-                <!-- SINGLE PACKAGE -->
-                <div class="col-md-4 wow flipInY" data-wow-offset="10" data-wow-duration="1.5s">
-                    <div class="single-pricing border-bottom-hover">
-                        
-                        <div class="package-title ">
-                              <h3 class="colored-text">Bootcamp Package</h3>
-                            <div class="colored-line">
-                            </div>
-                        </div>
-                        
-                        <h2 class="price"><span class="superscript"></span>39.99</h2>
-                        
-                        <ul class="package-list">
-                          
-                            <li><span class="dark-text strong">Detailed feedback on three performances/compositions</li>
-                            <li><span class="dark-text strong">300 words of advice to help you improve</li>
-                            <li><span class="dark-text strong">An action plan designed to help you develop over the next two months</li>
-                          
-                        </ul>
-                        
-                        <div class="button">
-                            <a href="#section11" class="btn standard-button inpage-scroll">Get Started</a>
-                        </div>
-                        
-                      
-                        
-                    </div>
-                </div>
-                
-                <!-- SINGLE PACKAGE -->
-                <div class="col-md-4 wow fadeInRight" data-wow-offset="20" data-wow-duration="1.75s">
-                    <div class="single-pricing border-bottom-hover">
-                        
-                        <div class="package-title">
-                            <h3 class="colored-text">Finalist Package</h3>
-                            <div class="colored-line">
-                            </div>
-                        </div>
-                        <h2 class="price"><span class="superscript"></span>99.99</h2>
-                        
-                        <ul class="package-list">
-                            <li><span class="dark-text strong">An informal 30 minute one-to-one lesson with us over Skype/Google Hangouts</span></li>
-                            <li><span class="dark-text strong">Detailed and interactive</span></li>
-                            <li><span class="dark-text strong">Together we can work to achieve your musical targets, and give you specific, tailored guidence on how improve</span></li>
-                            <li><span class="dark-text strong">Advice on on your next musical steps, or how to get ahead in the industry</span></li>
-                     
-                        </ul>
-                        
-                        <div class="button">
-                            <a href="#section11" class="btn standard-button inpage-scroll">Get Started</a>
-                        </div>
-                        
-                  
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
     
  
     
