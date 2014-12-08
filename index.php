@@ -419,17 +419,17 @@
                     <div class="single-pricing border-bottom-hover">
                         
                         <div class="package-title">
-                            <h3 class="colored-text">Overview</h3>
+                            <h3 class="colored-text">Audition Package</h3>
                             <div class="colored-line">
                             </div>
                         </div>
                         
-                        <h2 class="price"><span class="superscript">$</span>14.99</h2>
+                        <h2 class="price"><span class="superscript"></span>9.99</h2>
                         
                         <ul class="package-list">
                             <li><span class="dark-text strong">100 words of feedback on one performance or composition</span></li>
                             <li><span class="dark-text strong">Specific answers to questions or problems</span></li>
-                            <li><span class="dark-text strong">Advice for improvement</span></li>
+                            <li><span class="dark-text strong">Advice to help you improve</span></li>
                      
                         </ul>
                         
@@ -447,18 +447,18 @@
                     <div class="single-pricing border-bottom-hover">
                         
                         <div class="package-title ">
-                              <h3 class="colored-text">In Depth</h3>
+                              <h3 class="colored-text">Bootcamp Package</h3>
                             <div class="colored-line">
                             </div>
                         </div>
                         
-                        <h2 class="price"><span class="superscript">$</span>39.99</h2>
+                        <h2 class="price"><span class="superscript"></span>39.99</h2>
                         
                         <ul class="package-list">
                           
-                            <li><span class="dark-text strong">Show us your range and submit three compositions/performances</li>
-                            <li><span class="dark-text strong">300 words of advice</li>
-                            <li><span class="dark-text strong">An action plan designed to help you progress over the next six months</li>
+                            <li><span class="dark-text strong">Detailed feedback on three performances/compositions</li>
+                            <li><span class="dark-text strong">300 words of advice to help you improve</li>
+                            <li><span class="dark-text strong">An action plan designed to help you develop over the next two months</li>
                           
                         </ul>
                         
@@ -476,16 +476,17 @@
                     <div class="single-pricing border-bottom-hover">
                         
                         <div class="package-title">
-                            <h3 class="colored-text">One-to-One</h3>
+                            <h3 class="colored-text">Finalist Package</h3>
                             <div class="colored-line">
                             </div>
                         </div>
-                        <h2 class="price"><span class="superscript">$</span>99.99</h2>
+                        <h2 class="price"><span class="superscript"></span>99.99</h2>
                         
                         <ul class="package-list">
-                            <li><span class="dark-text strong">An informal 30 minute lesson with us over Skype/Google Hangouts</span></li>
-                            <li><span class="dark-text strong">Detailed and interactive tuition</span></li>
-                            <li><span class="dark-text strong">Together we can plan out your next steps musically</span></li>
+                            <li><span class="dark-text strong">An informal 30 minute one-to-one lesson with us over Skype/Google Hangouts</span></li>
+                            <li><span class="dark-text strong">Detailed and interactive</span></li>
+                            <li><span class="dark-text strong">Together we can work to achieve your musical targets, and give you specific, tailored guidence on how improve</span></li>
+                            <li><span class="dark-text strong">Advice on on your next musical steps, or how to get ahead in the industry</span></li>
                      
                         </ul>
                         
@@ -591,9 +592,9 @@
               <div class='col-xs-12 form-group  required'>
                 <label class='control-label'>Service Required</label>
               <select class="form-control products" name="servicerequired">
-  <option value="14.99">Overview (1 recording, 100 words of feedback)</option>
-  <option value="39.99">In Depth (3 recordings, 300 words of feedback)</option>
-  <option value="99.99">One-to-One (30 minute Skype session)</option>
+  <option value="14.99">Audition Package (1 recording, 100 words of feedback)</option>
+  <option value="39.99">Bootcamp Package (3 recordings, 300 words of feedback)</option>
+  <option value="99.99">Finalist Package (One-to-one session)</option>
 
 </select>
               </div>
