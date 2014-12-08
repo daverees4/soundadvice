@@ -418,10 +418,8 @@
                 <div class="col-md-4 wow fadeInLeft" data-wow-offset="20" data-wow-duration="1.75s">
                     <div class="single-pricing border-bottom-hover">
                         
-                        <div class="package-title">
-                            <h3 class="colored-text">Audition Package</h3>
-                            <div class="colored-line">
-                            </div>
+                        <div class="button">
+                            <a href="#section11" class="btn standard-button inpage-scroll">Get Started</a>
                         </div>
                         
                         <h2 class="price"><span class="superscript"></span>9.99</h2>
@@ -433,8 +431,12 @@
                      
                         </ul>
                         
-                        <div class="button">
-                            <a href="#section11" class="btn standard-button inpage-scroll">Get Started</a>
+                       
+                        
+                            <div class="package-title">
+                            <h3 class="colored-text">Audition Package</h3>
+                            <div class="colored-line">
+                            </div>
                         </div>
                         
                     
