@@ -212,7 +212,7 @@
                 </div>
                 <div class="sub-heading">
                     We believe in helping people achieve their dreams. <br>
-                    Whether you want to get on TV, or just improve your shower voice - we can help.<br>  
+                    Whether you want to get on TV, or just improve your karaoke - we can help.<br>  
                     Send us a clip today, and let us make the difference!
                 </div>
             </div>
