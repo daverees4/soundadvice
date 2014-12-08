@@ -257,8 +257,12 @@
                         </p>
                     </div>
                 </div>
-                
+                    <div class="button">
+                                <a href="#signup" class="btn btn-primary standard-button inpage-scroll">Get Started Now!</a>
+                             
+                            </div>
             </div>
+          
         </div>
     </section>
     
@@ -500,6 +504,10 @@
                     
                 </div>
             </div>
+                <div class="button">
+                                <a href="#signup" class="btn btn-primary standard-button inpage-scroll">Get Started Now!</a>
+                             
+                            </div>
         </div>
     </section>
     
@@ -552,6 +560,10 @@
                 </div>
                 
             </div>
+                <div class="button">
+                                <a href="#signup" class="btn btn-primary standard-button inpage-scroll">Get Started Now!</a>
+                             
+                            </div>
         </div>
     </section>
     
