@@ -212,7 +212,7 @@
                 </div>
                 <div class="sub-heading">
                     We believe in helping people achieve their dreams. <br>
-                    Whether you want to get on TV, to improve your karaoke - we can help.<br>  
+                    Whether you want to get on TV, or just improve your karaoke - we can help.<br>  
                     Send us a clip today, and let us make the difference!
                 </div>
             </div>
@@ -227,7 +227,7 @@
                         </div>
                         <h3 class="colored-text">Upload Your Music</h3>
                         <p>
-                            Send us a recording of your singing, playing or composition.  We accept links to Youtube or Soundcloud. 
+                            Send us a recording of your singing, playing or composition.  We accept links to Youtube, Soundcloud, or MP3 files. 
                         </p>
                     </div>
                 </div>
@@ -261,6 +261,8 @@
                                 <a href="#signup" class="btn btn-primary standard-button inpage-scroll">Get Started Now!</a>
                              
                             </div>
+                            <br />
+                            <br />
             </div>
           
         </div>
@@ -300,9 +302,9 @@
                             <div class="colored-line">
                             </div>
                         </div>
-                        
+                        <br />
                           <div class="button">
-                            <a href="#section11" class="btn standard-button inpage-scroll">Get Started</a>
+                            <a href="#signup" class="btn standard-button inpage-scroll">Get Started</a>
                         </div>
                         
                         <ul class="package-list">
@@ -329,7 +331,11 @@
                             </div>
                         </div>
                         
-                        <h2 class="price"><span class="superscript"></span>39.99</h2>
+                        <br />
+                         <div class="button">
+                            <a href="#signup" class="btn standard-button inpage-scroll">Get Started</a>
+                        </div>
+                        
                         
                         <ul class="package-list">
                           
@@ -339,9 +345,7 @@
                           
                         </ul>
                         
-                        <div class="button">
-                            <a href="#section11" class="btn standard-button inpage-scroll">Get Started</a>
-                        </div>
+                       <h2 class="price"><span class="superscript"></span>39.99</h2>
                         
                       
                         
@@ -357,7 +361,11 @@
                             <div class="colored-line">
                             </div>
                         </div>
-                        <h2 class="price"><span class="superscript"></span>99.99</h2>
+                        <br />
+                           <div class="button">
+                            <a href="#signup" class="btn standard-button inpage-scroll">Get Started</a>
+                        </div>
+                    
                         
                         <ul class="package-list">
                             <li><span class="dark-text strong">An informal 30 minute one-to-one lesson with us over Skype/Google Hangouts</span></li>
@@ -366,10 +374,8 @@
                             <li><span class="dark-text strong">Advice on on your next musical steps, or how to get ahead in the industry</span></li>
                      
                         </ul>
-                        
-                        <div class="button">
-                            <a href="#section11" class="btn standard-button inpage-scroll">Get Started</a>
-                        </div>
+                            <h2 class="price"><span class="superscript"></span>99.99</h2>
+                     
                         
                   
                         
@@ -504,6 +510,7 @@
                     
                 </div>
             </div>
+            <br />
                 <div class="button">
                                 <a href="#signup" class="btn btn-primary standard-button inpage-scroll">Get Started Now!</a>
                              
@@ -606,9 +613,9 @@
               <div class='col-xs-12 form-group  required'>
                 <label class='control-label'>Service Required</label>
               <select class="form-control products" name="servicerequired">
-  <option value="14.99">Audition Package (1 recording, 100 words of feedback)</option>
-  <option value="39.99">Bootcamp Package (3 recordings, 300 words of feedback)</option>
-  <option value="99.99">Finalist Package (One-to-one session)</option>
+  <option value="1" id="14.99">Audition Package (1 recording, 100 words of feedback)</option>
+  <option value="2" id="39.99">Bootcamp Package (3 recordings, 300 words of feedback)</option>
+  <option value="3" id="99.99">Finalist Package (One-to-one session)</option>
 
 </select>
               </div>
@@ -616,7 +623,151 @@
        
 	        
         </div>
-         <div class='col-md-4'></div>
+         <div class='col-md-4'>
+	         
+	         <div id="package1" class="links">
+	         
+	        <div class='form-row'>
+              <div class='col-xs-12 form-group  required'>
+                <label class='control-label'>Youtube/Soundcloud Link 1</label>
+                <input autocomplete='off' class='form-control' name="link1" size='20' type='text'>
+              </div>
+            </div>
+	         
+         </div>
+                  <div id="package2" class="links">
+	         
+	        <div class='form-row'>
+              <div class='col-xs-12 form-group  required' >
+                <label class='control-label'>Youtube/Soundcloud Link 1</label>
+                <input autocomplete='off' class='form-control' name="link1" size='20' type='text'>
+              </div>
+            </div>
+              <div class='form-row'>
+              <div class='col-xs-12 form-group  required'>
+                <label class='control-label'>Youtube/Soundcloud Link 2</label>
+                <input autocomplete='off' class='form-control' name="link2" size='20' type='text'>
+              </div>
+            </div>
+              <div class='form-row'>
+              <div class='col-xs-12 form-group  required'>
+                <label class='control-label'>Youtube/Soundcloud Link 3</label>
+                <input autocomplete='off' class='form-control' name="link3" size='20' type='text'>
+              </div>
+            </div>
+	         
+         </div>
+         
+                  <div id="package3" class="links">
+	         
+	        <div class='form-row'>
+              <div class='col-xs-12 form-group  required'>
+                <label class='control-label'>Skype ID or Google Hangout Ema</label>
+                <input autocomplete='off' class='form-control' name="skype" size='20' type='text'>
+              </div>
+            </div>
+            
+              <div class='form-row'>
+              <div class='col-xs-12 form-group  required'>
+                <label class='control-label'>Your Timezone</label>
+                 <select name="timezone " class="form-control">
+	<option timeZoneId="1" gmtAdjustment="GMT-12:00" useDaylightTime="0" value="-12">(GMT-12:00) International Date Line West</option>
+	<option timeZoneId="2" gmtAdjustment="GMT-11:00" useDaylightTime="0" value="-11">(GMT-11:00) Midway Island, Samoa</option>
+	<option timeZoneId="3" gmtAdjustment="GMT-10:00" useDaylightTime="0" value="-10">(GMT-10:00) Hawaii</option>
+	<option timeZoneId="4" gmtAdjustment="GMT-09:00" useDaylightTime="1" value="-9">(GMT-09:00) Alaska</option>
+	<option timeZoneId="5" gmtAdjustment="GMT-08:00" useDaylightTime="1" value="-8">(GMT-08:00) Pacific Time (US & Canada)</option>
+	<option timeZoneId="6" gmtAdjustment="GMT-08:00" useDaylightTime="1" value="-8">(GMT-08:00) Tijuana, Baja California</option>
+	<option timeZoneId="7" gmtAdjustment="GMT-07:00" useDaylightTime="0" value="-7">(GMT-07:00) Arizona</option>
+	<option timeZoneId="8" gmtAdjustment="GMT-07:00" useDaylightTime="1" value="-7">(GMT-07:00) Chihuahua, La Paz, Mazatlan</option>
+	<option timeZoneId="9" gmtAdjustment="GMT-07:00" useDaylightTime="1" value="-7">(GMT-07:00) Mountain Time (US & Canada)</option>
+	<option timeZoneId="10" gmtAdjustment="GMT-06:00" useDaylightTime="0" value="-6">(GMT-06:00) Central America</option>
+	<option timeZoneId="11" gmtAdjustment="GMT-06:00" useDaylightTime="1" value="-6">(GMT-06:00) Central Time (US & Canada)</option>
+	<option timeZoneId="12" gmtAdjustment="GMT-06:00" useDaylightTime="1" value="-6">(GMT-06:00) Guadalajara, Mexico City, Monterrey</option>
+	<option timeZoneId="13" gmtAdjustment="GMT-06:00" useDaylightTime="0" value="-6">(GMT-06:00) Saskatchewan</option>
+	<option timeZoneId="14" gmtAdjustment="GMT-05:00" useDaylightTime="0" value="-5">(GMT-05:00) Bogota, Lima, Quito, Rio Branco</option>
+	<option timeZoneId="15" gmtAdjustment="GMT-05:00" useDaylightTime="1" value="-5">(GMT-05:00) Eastern Time (US & Canada)</option>
+	<option timeZoneId="16" gmtAdjustment="GMT-05:00" useDaylightTime="1" value="-5">(GMT-05:00) Indiana (East)</option>
+	<option timeZoneId="17" gmtAdjustment="GMT-04:00" useDaylightTime="1" value="-4">(GMT-04:00) Atlantic Time (Canada)</option>
+	<option timeZoneId="18" gmtAdjustment="GMT-04:00" useDaylightTime="0" value="-4">(GMT-04:00) Caracas, La Paz</option>
+	<option timeZoneId="19" gmtAdjustment="GMT-04:00" useDaylightTime="0" value="-4">(GMT-04:00) Manaus</option>
+	<option timeZoneId="20" gmtAdjustment="GMT-04:00" useDaylightTime="1" value="-4">(GMT-04:00) Santiago</option>
+	<option timeZoneId="21" gmtAdjustment="GMT-03:30" useDaylightTime="1" value="-3.5">(GMT-03:30) Newfoundland</option>
+	<option timeZoneId="22" gmtAdjustment="GMT-03:00" useDaylightTime="1" value="-3">(GMT-03:00) Brasilia</option>
+	<option timeZoneId="23" gmtAdjustment="GMT-03:00" useDaylightTime="0" value="-3">(GMT-03:00) Buenos Aires, Georgetown</option>
+	<option timeZoneId="24" gmtAdjustment="GMT-03:00" useDaylightTime="1" value="-3">(GMT-03:00) Greenland</option>
+	<option timeZoneId="25" gmtAdjustment="GMT-03:00" useDaylightTime="1" value="-3">(GMT-03:00) Montevideo</option>
+	<option timeZoneId="26" gmtAdjustment="GMT-02:00" useDaylightTime="1" value="-2">(GMT-02:00) Mid-Atlantic</option>
+	<option timeZoneId="27" gmtAdjustment="GMT-01:00" useDaylightTime="0" value="-1">(GMT-01:00) Cape Verde Is.</option>
+	<option timeZoneId="28" gmtAdjustment="GMT-01:00" useDaylightTime="1" value="-1">(GMT-01:00) Azores</option>
+	<option timeZoneId="29" gmtAdjustment="GMT+00:00" useDaylightTime="0" value="0">(GMT+00:00) Casablanca, Monrovia, Reykjavik</option>
+	<option timeZoneId="30" gmtAdjustment="GMT+00:00" useDaylightTime="1" value="0">(GMT+00:00) Greenwich Mean Time : Dublin, Edinburgh, Lisbon, London</option>
+	<option timeZoneId="31" gmtAdjustment="GMT+01:00" useDaylightTime="1" value="1">(GMT+01:00) Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna</option>
+	<option timeZoneId="32" gmtAdjustment="GMT+01:00" useDaylightTime="1" value="1">(GMT+01:00) Belgrade, Bratislava, Budapest, Ljubljana, Prague</option>
+	<option timeZoneId="33" gmtAdjustment="GMT+01:00" useDaylightTime="1" value="1">(GMT+01:00) Brussels, Copenhagen, Madrid, Paris</option>
+	<option timeZoneId="34" gmtAdjustment="GMT+01:00" useDaylightTime="1" value="1">(GMT+01:00) Sarajevo, Skopje, Warsaw, Zagreb</option>
+	<option timeZoneId="35" gmtAdjustment="GMT+01:00" useDaylightTime="1" value="1">(GMT+01:00) West Central Africa</option>
+	<option timeZoneId="36" gmtAdjustment="GMT+02:00" useDaylightTime="1" value="2">(GMT+02:00) Amman</option>
+	<option timeZoneId="37" gmtAdjustment="GMT+02:00" useDaylightTime="1" value="2">(GMT+02:00) Athens, Bucharest, Istanbul</option>
+	<option timeZoneId="38" gmtAdjustment="GMT+02:00" useDaylightTime="1" value="2">(GMT+02:00) Beirut</option>
+	<option timeZoneId="39" gmtAdjustment="GMT+02:00" useDaylightTime="1" value="2">(GMT+02:00) Cairo</option>
+	<option timeZoneId="40" gmtAdjustment="GMT+02:00" useDaylightTime="0" value="2">(GMT+02:00) Harare, Pretoria</option>
+	<option timeZoneId="41" gmtAdjustment="GMT+02:00" useDaylightTime="1" value="2">(GMT+02:00) Helsinki, Kyiv, Riga, Sofia, Tallinn, Vilnius</option>
+	<option timeZoneId="42" gmtAdjustment="GMT+02:00" useDaylightTime="1" value="2">(GMT+02:00) Jerusalem</option>
+	<option timeZoneId="43" gmtAdjustment="GMT+02:00" useDaylightTime="1" value="2">(GMT+02:00) Minsk</option>
+	<option timeZoneId="44" gmtAdjustment="GMT+02:00" useDaylightTime="1" value="2">(GMT+02:00) Windhoek</option>
+	<option timeZoneId="45" gmtAdjustment="GMT+03:00" useDaylightTime="0" value="3">(GMT+03:00) Kuwait, Riyadh, Baghdad</option>
+	<option timeZoneId="46" gmtAdjustment="GMT+03:00" useDaylightTime="1" value="3">(GMT+03:00) Moscow, St. Petersburg, Volgograd</option>
+	<option timeZoneId="47" gmtAdjustment="GMT+03:00" useDaylightTime="0" value="3">(GMT+03:00) Nairobi</option>
+	<option timeZoneId="48" gmtAdjustment="GMT+03:00" useDaylightTime="0" value="3">(GMT+03:00) Tbilisi</option>
+	<option timeZoneId="49" gmtAdjustment="GMT+03:30" useDaylightTime="1" value="3.5">(GMT+03:30) Tehran</option>
+	<option timeZoneId="50" gmtAdjustment="GMT+04:00" useDaylightTime="0" value="4">(GMT+04:00) Abu Dhabi, Muscat</option>
+	<option timeZoneId="51" gmtAdjustment="GMT+04:00" useDaylightTime="1" value="4">(GMT+04:00) Baku</option>
+	<option timeZoneId="52" gmtAdjustment="GMT+04:00" useDaylightTime="1" value="4">(GMT+04:00) Yerevan</option>
+	<option timeZoneId="53" gmtAdjustment="GMT+04:30" useDaylightTime="0" value="4.5">(GMT+04:30) Kabul</option>
+	<option timeZoneId="54" gmtAdjustment="GMT+05:00" useDaylightTime="1" value="5">(GMT+05:00) Yekaterinburg</option>
+	<option timeZoneId="55" gmtAdjustment="GMT+05:00" useDaylightTime="0" value="5">(GMT+05:00) Islamabad, Karachi, Tashkent</option>
+	<option timeZoneId="56" gmtAdjustment="GMT+05:30" useDaylightTime="0" value="5.5">(GMT+05:30) Sri Jayawardenapura</option>
+	<option timeZoneId="57" gmtAdjustment="GMT+05:30" useDaylightTime="0" value="5.5">(GMT+05:30) Chennai, Kolkata, Mumbai, New Delhi</option>
+	<option timeZoneId="58" gmtAdjustment="GMT+05:45" useDaylightTime="0" value="5.75">(GMT+05:45) Kathmandu</option>
+	<option timeZoneId="59" gmtAdjustment="GMT+06:00" useDaylightTime="1" value="6">(GMT+06:00) Almaty, Novosibirsk</option>
+	<option timeZoneId="60" gmtAdjustment="GMT+06:00" useDaylightTime="0" value="6">(GMT+06:00) Astana, Dhaka</option>
+	<option timeZoneId="61" gmtAdjustment="GMT+06:30" useDaylightTime="0" value="6.5">(GMT+06:30) Yangon (Rangoon)</option>
+	<option timeZoneId="62" gmtAdjustment="GMT+07:00" useDaylightTime="0" value="7">(GMT+07:00) Bangkok, Hanoi, Jakarta</option>
+	<option timeZoneId="63" gmtAdjustment="GMT+07:00" useDaylightTime="1" value="7">(GMT+07:00) Krasnoyarsk</option>
+	<option timeZoneId="64" gmtAdjustment="GMT+08:00" useDaylightTime="0" value="8">(GMT+08:00) Beijing, Chongqing, Hong Kong, Urumqi</option>
+	<option timeZoneId="65" gmtAdjustment="GMT+08:00" useDaylightTime="0" value="8">(GMT+08:00) Kuala Lumpur, Singapore</option>
+	<option timeZoneId="66" gmtAdjustment="GMT+08:00" useDaylightTime="0" value="8">(GMT+08:00) Irkutsk, Ulaan Bataar</option>
+	<option timeZoneId="67" gmtAdjustment="GMT+08:00" useDaylightTime="0" value="8">(GMT+08:00) Perth</option>
+	<option timeZoneId="68" gmtAdjustment="GMT+08:00" useDaylightTime="0" value="8">(GMT+08:00) Taipei</option>
+	<option timeZoneId="69" gmtAdjustment="GMT+09:00" useDaylightTime="0" value="9">(GMT+09:00) Osaka, Sapporo, Tokyo</option>
+	<option timeZoneId="70" gmtAdjustment="GMT+09:00" useDaylightTime="0" value="9">(GMT+09:00) Seoul</option>
+	<option timeZoneId="71" gmtAdjustment="GMT+09:00" useDaylightTime="1" value="9">(GMT+09:00) Yakutsk</option>
+	<option timeZoneId="72" gmtAdjustment="GMT+09:30" useDaylightTime="0" value="9.5">(GMT+09:30) Adelaide</option>
+	<option timeZoneId="73" gmtAdjustment="GMT+09:30" useDaylightTime="0" value="9.5">(GMT+09:30) Darwin</option>
+	<option timeZoneId="74" gmtAdjustment="GMT+10:00" useDaylightTime="0" value="10">(GMT+10:00) Brisbane</option>
+	<option timeZoneId="75" gmtAdjustment="GMT+10:00" useDaylightTime="1" value="10">(GMT+10:00) Canberra, Melbourne, Sydney</option>
+	<option timeZoneId="76" gmtAdjustment="GMT+10:00" useDaylightTime="1" value="10">(GMT+10:00) Hobart</option>
+	<option timeZoneId="77" gmtAdjustment="GMT+10:00" useDaylightTime="0" value="10">(GMT+10:00) Guam, Port Moresby</option>
+	<option timeZoneId="78" gmtAdjustment="GMT+10:00" useDaylightTime="1" value="10">(GMT+10:00) Vladivostok</option>
+	<option timeZoneId="79" gmtAdjustment="GMT+11:00" useDaylightTime="1" value="11">(GMT+11:00) Magadan, Solomon Is., New Caledonia</option>
+	<option timeZoneId="80" gmtAdjustment="GMT+12:00" useDaylightTime="1" value="12">(GMT+12:00) Auckland, Wellington</option>
+	<option timeZoneId="81" gmtAdjustment="GMT+12:00" useDaylightTime="0" value="12">(GMT+12:00) Fiji, Kamchatka, Marshall Is.</option>
+	<option timeZoneId="82" gmtAdjustment="GMT+13:00" useDaylightTime="0" value="13">(GMT+13:00) Nuku'alofa</option>
+</select>
+              </div>
+            </div>
+            
+             <div class='form-row'>
+              <div class='col-xs-12 form-group  required'>
+                <label class='control-label'>When would be the best time to talk?</label>
+                <textarea class="form-control "></textarea>
+              </div>
+            </div>
+            
+          
+	         
+         </div>
+         </div>
         <div class='col-md-4'>
          
 <input name="_method" type="hidden" value="PUT" /><input name="authenticity_token" type="hidden" value="qLZ9cScer7ZxqulsUWazw4x3cSEzv899SP/7ThPCOV8=" />
@@ -749,10 +900,23 @@ $(function() {
   var $form = $("#payment-form");
   
 $('.products').on('change', function() {
-  $('.amount').text("$"+this.value);
+ $('.links').hide();
+$("#package"+this.value).show();
+
+if(this.value=="1") {
+$('.amount').text('$14.99'); 
+}
+
+if(this.value=="2") {
+$('.amount').text('$39.99'); 
+}
+
+if(this.value=="3") {
+$('.amount').text('$99.99'); 
+}
 });
 	
-  
+  $('#package2, #package3').hide(); 
 
   $form.on('submit', function(e) {
     if (!$form.data('cc-on-file')) {
