@@ -305,17 +305,15 @@
                         <br />
                           <div class="button">
                             <a href="#signup" class="btn standard-button inpage-scroll">Get Started</a>
-                        </div>
-                        
+                        </div>                      
                         <ul class="package-list">
                             <li><span class="dark-text strong">100 words of feedback on one performance or composition</span></li>
                             <li><span class="dark-text strong">Specific answers to questions or problems</span></li>
                             <li><span class="dark-text strong">Advice to help you improve</span></li>
                      
                         </ul>
-                        
-                      
-                        
+                                              
+                  
                     <h2 class="price"><span class="superscript"></span>9.99</h2>
                         
                     </div>
