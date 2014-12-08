@@ -212,7 +212,7 @@
                 </div>
                 <div class="sub-heading">
                     We believe in helping people achieve their dreams. <br>
-                    Whether you want to get on TV, or improve your karaoke - we can help.<br>  
+                    Whether you want to get on TV, to improve your karaoke - we can help.<br>  
                     Send us a clip today, and let us make the difference!
                 </div>
             </div>
@@ -227,7 +227,7 @@
                         </div>
                         <h3 class="colored-text">Upload Your Music</h3>
                         <p>
-                            Send us a recording of your singing, playing or composition.  We accept links to Youtube, Soundcloud, or MP3 files. 
+                            Send us a recording of your singing, playing or composition.  We accept links to Youtube or Soundcloud. 
                         </p>
                     </div>
                 </div>
