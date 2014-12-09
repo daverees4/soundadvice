@@ -682,7 +682,7 @@ They’ll also show you where you can improve.  Suggestions might range from son
 	         
 	        <div class='form-row'>
               <div class='col-xs-12 form-group  required'>
-                <label class='control-label'>Skype ID or Google Hangout Ema</label>
+                <label class='control-label'>Skype ID or Google Hangout Email</label>
                 <input autocomplete='off' class='form-control' name="skype" size='20' type='text'>
               </div>
             </div>
