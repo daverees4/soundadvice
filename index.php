@@ -545,23 +545,38 @@ They’ll also show you where you can improve.  Suggestions might range from son
                     <div class="colored-line-left">
                     </div>
                     <p class="text-left">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        We have a whole team here, from record executives to performers to advise you on every aspect of your performance.<br>  All on standby waiting for your song or video.
+
+<br><br>Professionally our people have previously worked with:<br>
+
                     </p>
                     
                     <!-- FEATURE LIST -->
                     <div class="row">
                         <div class="col-md-6 col-sm-6">
                             <ul class="feature-list text-left">
-                                <li><span class="icon-lock-alt colored-text"></span> We care your businnes</li>
-                                <li><span class="icon-check-alt2 colored-text"></span> Skilled professionals</li>
-                                <li><span class="icon-paperclip colored-text"></span> Lorem ipsum dolor</li>
-                            </ul>
+                                <li><span class="icon-adjust-vert colored-text"></span> <b>Record Companies:</b><br>
+                                Universal Music<br> 
+                                Decca Records<br>
+                                Virgin Records<br></li>
+                                <li><span class="icon-check-alt2 colored-text"></span> <b>Bands:</b><br>
+                                Noah and the Whale<br>
+                                Laura Marling<br>
+                                Andrea Bocelli<br>
+                                Luciano Pavarotti</li>
+                                
                         </div>
                         <div class="col-md-6 col-sm-6">
                             <ul class="feature-list text-left">
-                                <li><span class="icon-paperclip colored-text"></span> Startup ipsum does</li>
-                                <li><span class="icon-adjust-vert colored-text"></span> Flexible schedule</li>
-                                <li><span class="icon-ribbon-alt colored-text"></span> Certified company</li>
+                                <li><span class="icon-paperclip colored-text"></span> <b> We also have on staff:</b> <br>
+                                Professional Singers<br>
+                                Lecturer from Royal College of Music
+                                </li>
+                                <li><span class="icon-ribbon-alt colored-text"></span> <b>Performed:</b><br>
+                                    BBC Radio<br>
+                                    BBC 1<br>
+                                    Royal Albert Hall
+                                </li>
                             </ul>
                         </div>
                     </div>
