@@ -240,7 +240,7 @@
                         </div>
                         <h3 class="colored-text">Get Advice</h3>
                         <p>
-                            Receive feedback in the next seven days, from a 100-word summary to a one-on-one Skype session.  
+                            Receive feedback in seven days, from a 100-word summary to a personal Skype session.  
                         </p>
                     </div>
                 </div>
@@ -253,7 +253,7 @@
                         </div>
                         <h3 class="colored-text">Be More Awesome!</h3>
                         <p>
-                            With some honest feedback you'll be in a far better position to pursue your musical goals and dreams!  
+                            With some professional feedback and advice you'll be able to pursue your musical goals and dreams!  
                         </p>
                     </div>
                 </div>
@@ -412,11 +412,14 @@
                             <span class="icon-laptop colored-text"></span>
                         </div>
                         <div class="description text-left">
-                            <h4 class="dark-text">Reliable Company</h4>
+                            <h4 class="dark-text">Professional Feedback</h4>
                             <div class="grey-line-short pull-left">
                             </div>
                             <p class="text-left">
-                                User engagement A/B testing shrink a market venture capital pitch deck.
+                                Industry leaders – from major record executives to performers - will tell you what is great about you (this is very important) so that you can play to your strengths.  
+They’ll also show you where you can improve.  Suggestions might range from song choice to specific musical and performance tips.  
+
+
                             </p>
                         </div>
                     </div>
@@ -427,11 +430,11 @@
                             <span class="icon-map-alt colored-text"></span>
                         </div>
                         <div class="description text-left">
-                            <h4 class="dark-text">Responsive Design</h4>
+                            <h4 class="dark-text">Improvement</h4>
                             <div class="grey-line-short pull-left">
                             </div>
                             <p class="text-left">
-                                User engagement A/B testing shrink a market venture capital pitch deck.
+                                This feedback will help you improve both in performance and in your singing or playing.  We are all about helping you get to where you want.
                             </p>
                         </div>
                     </div>
@@ -442,11 +445,11 @@
                             <span class="icon-cloud-alt colored-text"></span>
                         </div>
                         <div class="description text-left">
-                            <h4 class="dark-text">Cloud Platform</h4>
+                            <h4 class="dark-text">Share & Support</h4>
                             <div class="grey-line-short pull-left">
                             </div>
                             <p class="text-left">
-                                User engagement A/B testing shrink a market venture capital pitch deck.
+                                We’ll give you the option of sharing your positive feedback on Facebook and twitter so that your friends and family can give you encouragement as well.  Support is essential!
                             </p>
                         </div>
                     </div>
@@ -467,11 +470,11 @@
                             <span class="icon-gift-alt colored-text"></span>
                         </div>
                         <div class="description text-left">
-                            <h4 class="dark-text">Bootstrap 3.3.1</h4>
+                            <h4 class="dark-text">Confidence</h4>
                             <div class="grey-line-short pull-left">
                             </div>
                             <p class="text-left">
-                                User engagement A/B testing shrink a market venture capital pitch deck.
+                                Our feedback from Industry professionals will give you the confidence to get out there, perform, and achieve your dreams
                             </p>
                         </div>
                     </div>
@@ -482,11 +485,11 @@
                             <span class="icon-star-alt colored-text"></span>
                         </div>
                         <div class="description text-left">
-                            <h4 class="dark-text">400+ Icons Font</h4>
+                            <h4 class="dark-text">Basics</h4>
                             <div class="grey-line-short pull-left">
                             </div>
                             <p class="text-left">
-                                User engagement A/B testing shrink a market venture capital pitch deck.
+                                Make 100% sure that you’ve got all the little things sorted to stop any nasty surprises down the line, from personal imagery to technique
                             </p>
                         </div>
                     </div>
@@ -497,11 +500,11 @@
                             <span class="icon-chat-alt colored-text"></span>
                         </div>
                         <div class="description text-left">
-                            <h4 class="dark-text">Top Support</h4>
+                            <h4 class="dark-text">Immediate Feedback</h4>
                             <div class="grey-line-short pull-left">
                             </div>
                             <p class="text-left">
-                                User engagement A/B testing shrink a market venture capital pitch deck.
+                                We give you all of this within 7 days, so that you can improve without leaving the comfort of your own home! 
                             </p>
                         </div>
                     </div>
@@ -536,9 +539,9 @@
                 <!-- BRIEF HEADING -->
                 <div class="col-md-6 content-section pull-left wow fadeInRight" data-wow-offset="20" data-wow-duration="1.75s">
                     <div class="small-text-medium uppercase colored-text">
-                        About
+                        Who are we?
                     </div>
-                    <h2 class="text-left dark-text">This replaces the team section </h2>
+                    <h2 class="text-left dark-text">Your team</h2>
                     <div class="colored-line-left">
                     </div>
                     <p class="text-left">
