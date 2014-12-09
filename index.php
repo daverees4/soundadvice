@@ -577,7 +577,7 @@ They’ll also show you where you can improve.  Suggestions might range from son
                                 Professional Singers<br>
                                 Artist Manager<br>
                                 Music Video Director<br>
-                                Make up & stylist<br>
+                                Make up & stylist adviser<br>
                                 Lecturer from Royal College of Music
                                 </li>
                                
