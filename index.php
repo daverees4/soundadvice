@@ -366,7 +366,7 @@
                     
                         
                         <ul class="package-list">
-                            <li><span class="dark-text strong">An informal 30 minute one-to-one lesson with us over Skype/Google Hangouts</span></li>
+                            <li><span class="dark-text strong">An informal 30 minute one-to-one lesson with an Industry Professional over Skype/Google Hangouts</span></li>
                             <li><span class="dark-text strong">Detailed and interactive</span></li>
                             <li><span class="dark-text strong">Together we can work to achieve your musical targets, and give you specific, tailored guidence on how improve</span></li>
                             <li><span class="dark-text strong">Advice on on your next musical steps, or how to get ahead in the industry</span></li>
@@ -568,15 +568,19 @@ They’ll also show you where you can improve.  Suggestions might range from son
                         </div>
                         <div class="col-md-6 col-sm-6">
                             <ul class="feature-list text-left">
+                                 <li><span class="icon-ribbon-alt colored-text"></span> <b>Broadcasters:</b><br>
+                                    BBC Radio<br>
+                                    BBC TV<br>
+                                    ITV<br>
+                                </li>
                                 <li><span class="icon-paperclip colored-text"></span> <b> We also have on staff:</b> <br>
                                 Professional Singers<br>
+                                Artist Manager<br>
+                                Music Video Director<br>
+                                Make up & stylist<br>
                                 Lecturer from Royal College of Music
                                 </li>
-                                <li><span class="icon-ribbon-alt colored-text"></span> <b>Performed:</b><br>
-                                    BBC Radio<br>
-                                    BBC 1<br>
-                                    Royal Albert Hall
-                                </li>
+                               
                             </ul>
                         </div>
                     </div>
