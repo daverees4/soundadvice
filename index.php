@@ -545,7 +545,7 @@ They’ll also show you where you can improve.  Suggestions might range from son
                     <div class="colored-line-left">
                     </div>
                     <p class="text-left">
-                        We have a whole team here, from record executives to performers to advise you on every aspect of your performance.<br>  All on standby waiting for your song or video.
+                        We have a whole team available to you from record executives to performers to advise you on every aspect of your performance.<br>  All on standby waiting for your song or video.
 
 <br><br>Professionally our people have previously worked with:<br>
 
