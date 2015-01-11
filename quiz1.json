@@ -122,12 +122,6 @@
                                 "text": "My UV blocking panels",
                                 "value": 3
                             }
-                        },
-                        {
-                            "answer": {
-                                "text": "My vibrant fashion sense",
-                                "value": 1
-                            }
                         }
                     ]
                 }
@@ -158,12 +152,6 @@
                             "answer": {
                                 "text": "Soccer, the most elegant game",
                                 "value": 4
-                            }
-                        },
-                        {
-                            "answer": {
-                                "text": "Curling, it's so smooth",
-                                "value": 3
                             }
                         }
                     ]
@@ -196,11 +184,161 @@
                                 "text": "Whenever something awesome is happening!",
                                 "value": 1
                             }
+                        }
+                    ]
+                }
+            },
+             {
+                "question": {
+                    "text": "Where do you most often sing?",
+                    "question_answers": [
+                        {
+                            "answer": {
+                                "text": "The shower",
+                                "value": 0
+                            }
                         },
                         {
                             "answer": {
-                                "text": "Until I burn out",
+                                "text": "In front of the mirror",
+                                "value": 1
+                            }
+                        },
+                        {
+                            "answer": {
+                                "text": "In the pub karaoke",
+                                "value": 2
+                            }
+                        },
+                        {
+                            "answer": {
+                                "text": "To a packed stadium",
+                                "value": 3
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "question": {
+                    "text": "If someone told you that you had to sing to an X factor audience, would you:",
+                    "question_answers": [
+                        {
+                            "answer": {
+                                "text": "Break down, cry, and try and hide under the nearest piece of furniture",
                                 "value": 0
+                            }
+                        },
+                        {
+                            "answer": {
+                                "text": "Look nervous, but think ?I could sing 'X' song quite well!",
+                                "value": 1
+                            }
+                        },
+                        {
+                            "answer": {
+                                "text": "Go upstairs and practice your scales",
+                                "value": 2
+                            }
+                        },
+                        {
+                            "answer": {
+                                "text": "Scream 'OMG I'M GOING TO BE FAMOUS!!?' and burst into song at the nearest person",
+                                "value": 3
+                            }
+                        }]
+                        
+                    
+                }
+            },
+            {
+                "question": {
+                    "text": "What is your best quality?",
+                    "question_answers": [
+                        {
+                            "answer": {
+                                "text": "My determination",
+                                "value": 0
+                            }
+                        },
+                        {
+                            "answer": {
+                                "text": "My classiness",
+                                "value": 4
+                            }
+                        },
+                        {
+                            "answer": {
+                                "text": "My adapability",
+                                "value": 2
+                            }
+                        },
+                        {
+                            "answer": {
+                                "text": "My UV blocking panels",
+                                "value": 3
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "question": {
+                    "text": "What's your favorite sport?",
+                    "question_answers": [
+                        {
+                            "answer": {
+                                "text": "I don't really like sports",
+                                "value": 0
+                            }
+                        },
+                        {
+                            "answer": {
+                                "text": "Whatever's going on, I love to compete!",
+                                "value": 1
+                            }
+                        },
+                        {
+                            "answer": {
+                                "text": "Baseball, the game of the free-market!",
+                                "value": 2
+                            }
+                        },
+                        {
+                            "answer": {
+                                "text": "Soccer, the most elegant game",
+                                "value": 4
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "question": {
+                    "text": "When do you feel most active?",
+                    "question_answers": [
+                        {
+                            "answer": {
+                                "text": "Business hours",
+                                "value": 2
+                            }
+                        },
+                        {
+                            "answer": {
+                                "text": "I love reading late into the night",
+                                "value": 4
+                            }
+                        },
+                        {
+                            "answer": {
+                                "text": "My hours are 8:00 AM to 12:45 AM, with the circulation desk closing earlier",
+                                "value": 3
+                            }
+                        },
+                        {
+                            "answer": {
+                                "text": "Whenever something awesome is happening!",
+                                "value": 1
                             }
                         }
                     ]
