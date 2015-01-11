@@ -660,19 +660,19 @@ They’ll also show you where you can improve.  Suggestions might range from son
 	        <div class='form-row'>
               <div class='col-xs-12 form-group  required' >
                 <label class='control-label'>Youtube/Soundcloud Link 1</label>
-                <input autocomplete='off' class='form-control' name="link1" size='20' type='text'>
-              </div>
-            </div>
-              <div class='form-row'>
-              <div class='col-xs-12 form-group  required'>
-                <label class='control-label'>Youtube/Soundcloud Link 2</label>
                 <input autocomplete='off' class='form-control' name="link2" size='20' type='text'>
               </div>
             </div>
               <div class='form-row'>
               <div class='col-xs-12 form-group  required'>
-                <label class='control-label'>Youtube/Soundcloud Link 3</label>
+                <label class='control-label'>Youtube/Soundcloud Link 2</label>
                 <input autocomplete='off' class='form-control' name="link3" size='20' type='text'>
+              </div>
+            </div>
+              <div class='form-row'>
+              <div class='col-xs-12 form-group  required'>
+                <label class='control-label'>Youtube/Soundcloud Link 3</label>
+                <input autocomplete='off' class='form-control' name="link4" size='20' type='text'>
               </div>
             </div>
 	         
