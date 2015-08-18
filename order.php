@@ -86,7 +86,7 @@ header( 'Location: https://www.paypal.com/cgi-bin/webscr?business=dave@daveconse
 
 }
 
-header('Location: https://www.paypal.com/cgi-bin/webscr?business=mail@digitalfeedback.net&cmd=_xclick-subscriptions&currency_code=USD&p3=1&t3=M&no_shipping=1&src=1&sra=1&a3='.$charge.'&item_name=Digital%20Feedback%20Payment&return_url=http://digitalfeedback.net/thanks.php&cancel_return=http://www.digitalfeedback.net&email='.strip_tags($_POST['customeremail']).'&first_name='.strip_tags($_POST['customerfname']).'last_name='.strip_tags($_POST['customersname']).') ;
+header('Location: https://www.paypal.com/cgi-bin/webscr?business=mail@digitalfeedback.net&cmd=_xclick-subscriptions&currency_code=USD&p3=1&t3=M&no_shipping=1&src=1&sra=1&a3='.$charge.'&item_name=Digital%20Feedback%20Payment&return_url=http://digitalfeedback.net/thanks.php&cancel_return=http://www.digitalfeedback.net&email='.strip_tags($_POST['customeremail']).'&first_name='.strip_tags($_POST['customerfname']).'last_name='.strip_tags($_POST['customersname'])) ;
 
 
 ?>
