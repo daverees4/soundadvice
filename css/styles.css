@@ -362,6 +362,7 @@ strong,
 	transition: none;
 }
 
+
 /*---------------------------------------
    2.3 BORDER AND LINE       
 -----------------------------------------*/
@@ -502,8 +503,8 @@ strong,
 }
 
 .header .overlay-layer {
-	padding-top: 84px;
-	padding-bottom: 175px;
+	padding-top: 105px;
+	padding-bottom: 261px;
 	height: auto;
 }
 
@@ -565,6 +566,7 @@ strong,
 .only-logo .navbar-header {
 	margin: auto;
 	float: none;
+	padding-top:  30px
 }
 
 .only-logo .navbar-header img {
@@ -1206,5 +1208,9 @@ strong,
 .signup {
 	
 	background-color: #7e8b90;
+}
+
+.paymentform {
+	padding-left: 0px;
 }
 

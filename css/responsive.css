@@ -326,10 +326,12 @@
 	.header .overlay-layer {
 		padding-top: 55px;
 	}
-
-	.only-logo .navbar-header img {
-		max-width: 80px;
+	
+	#buttonone {
+		margin-bottom: 10px;
 	}
+
+
 
 	.intro-section {
 		margin-top: 20px;

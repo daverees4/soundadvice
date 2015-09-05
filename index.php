@@ -93,6 +93,10 @@
                         </button>
                         
                         <!-- LOGO -->
+                                                <a class='navbar-brand' href='#'>
+	                        
+                            <img src='images/logo-nav.png' alt=''>
+                        </a>
                    
                     </div>
                     
@@ -101,8 +105,7 @@
                         
                         <!-- NAVIGATION LINK -->
                         <ul class='nav navbar-nav navbar-left main-navigation small-text'>
-                            <li><a href='#about'>How it works</a>
-                            </li>
+                          
                             <li><a href='#pricing'>Pricing</a>
                             </li>
                             <li><a href='#benefits'>Benefits</a>
@@ -152,7 +155,7 @@
                             
                             <!-- BUTTON -->
                             <div class='button'>
-                                <a href='#signup' class='btn btn-primary standard-button inpage-scroll'>Get Started Now!</a>
+                                <a href='#signup' id="buttonone" class='btn btn-primary standard-button inpage-scroll'>Get Started Now!</a>
                                 <a href='#about' class='btn btn-primary standard-button inpage-scroll visible-desktop'>How Does It Work?</a>
                             </div>
                           
@@ -165,10 +168,11 @@
             </div>
         </div>
     </header>
-    
+ 
     <!-- =========================
      SECTION: CLIENTS LOGOs
     ============================== -->
+     <!--  
     <div class='clients white-bg'>
 	  
         <ul class='client-logos'>
@@ -192,6 +196,7 @@
             </li>
         </ul>
     </div>
+    -->
     
     <!-- =========================
      SECTION: SERVICES
@@ -539,7 +544,7 @@ They’ll also show you where you can improve.  Suggestions might range from son
                     <div class='small-text-medium uppercase colored-text'>
                         Who are we?
                     </div>
-                    <h2 class='text-left dark-text'>ur team</h2>
+                    <h2 class='text-left dark-text'>Our team</h2>
                     <div class='colored-line-left'>
                     </div>
                     <p class='text-left'>
@@ -608,14 +613,14 @@ They’ll also show you where you can improve.  Suggestions might range from son
                 <div class='colored-line'>
                 </div>
                 <div class='sub-heading'>
-                    100% secure payments via <a href='http://paypal.com'>Paypal</a>
+                    <p>100% secure payments via <a href='http://paypal.com'>Paypal</a>.</p><p> After placing your order we will contact you with an upload link for your music. </p>
                 </div>
             </div>
-            <div class='container'>
+            <div class='container paymentform'>
     <div class='row'>
 	              <form accept-charset='UTF-8' action='order.php' class='require-validation' data-cc-on-file='false' id='payment-form' method='post'><div style='margin:0;padding:0;display:inline'><input name='utf8' type='hidden' value='✓' />
         <div class='col-md-3'>
-	       
+	      &nbsp; 
 	        
         </div>
          <div class='col-md-6' >
@@ -675,7 +680,7 @@ They’ll also show you where you can improve.  Suggestions might range from son
          </div>
         <div class='col-md-3'>
          
-
+&nbsp;
         </div>
        
     </div>

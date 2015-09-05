@@ -23,21 +23,13 @@ $headers .= "BCC: mail@digitalfeedback.net\r\n";
 $headers .= "MIME-Version: 1.0\r\n";
 $headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
 
-$message = '<html><body>';
-$message .= '<img src="" alt="Digital Feedback" />';
-$message .='<p>Someone submitted the form on Digital Feedback - you will need to see if there is a corresponding paypal notification, otherwise chase for payment.</p>';
+
+$message ='Someone submitted the form on Digital Feedback - you will need to see if there is a corresponding paypal notification, otherwise chase for payment. \n';
+$message .= "First Name: " . strip_tags($_POST['customerfname']) . "\n";
+$message .= "Last Name: " . strip_tags($_POST['customersname']) . "\n";
+$message .= "Email: " . strip_tags($_POST['customeremail']) . "\n";
 
 
-
-$message .= '<table rules="all" style="border-color: #666;" cellpadding="10">';
-$message .= "<tr style='background: #eee;'><td><strong>First Name:</strong> </td><td>" . strip_tags($_POST['customerfname']) . "</td></tr>";
-$message .= "<tr style='background: #eee;'><td><strong>Second Name:</strong> </td><td>" . strip_tags($_POST['customersname']) . "</td></tr>";
-$message .= "<tr><td><strong>Email:</strong> </td><td>" . strip_tags($_POST['customeremail']) . "</td></tr>";
-
-$message .= "</table>";
-
-
-$message .= "</body></html>";
 
 
 
@@ -86,7 +78,7 @@ header( 'Location: https://www.paypal.com/cgi-bin/webscr?business=dave@daveconse
 
 }
 
-header('Location: https://www.paypal.com/cgi-bin/webscr?business=mail@digitalfeedback.net&cmd=_xclick-subscriptions&currency_code=USD&p3=1&t3=M&no_shipping=1&src=1&sra=1&a3='.$charge.'&item_name=Digital%20Feedback%20Payment&return_url=http://digitalfeedback.net/thanks.php&cancel_return=http://www.digitalfeedback.net&email='.strip_tags($_POST['customeremail']).'&first_name='.strip_tags($_POST['customerfname']).'last_name='.strip_tags($_POST['customersname'])) ;
+header('Location: https://www.paypal.com/cgi-bin/webscr?business=mail@digitalfeedback.net&cmd=_xclick&currency_code=USD&p3=1&t3=M&no_shipping=1&src=1&amount='.$charge.'&item_name=Digital%20Feedback%20Payment&return_url=http://digitalfeedback.net/thanks.php&cancel_return=http://www.digitalfeedback.net&email='.strip_tags($_POST['customeremail']).'&first_name='.strip_tags($_POST['customerfname']).'last_name='.strip_tags($_POST['customersname'])) ;
 
 
 ?>
