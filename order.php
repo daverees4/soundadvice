@@ -24,7 +24,7 @@ $headers .= "MIME-Version: 1.0\r\n";
 $headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
 
 
-$message ='Someone submitted the form on Digital Feedback - you will need to see if there is a corresponding paypal notification, otherwise chase for payment. \n';
+$message ='Someone submitted the form on Digital Feedback - you will need to see if there is a corresponding paypal notification, otherwise chase for payment. \n ';
 $message .= "First Name: " . strip_tags($_POST['customerfname']) . "\n";
 $message .= "Last Name: " . strip_tags($_POST['customersname']) . "\n";
 $message .= "Email: " . strip_tags($_POST['customeremail']) . "\n";
